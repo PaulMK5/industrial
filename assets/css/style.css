@@ -104,7 +104,6 @@ body {
 
 .nav-wrapper:hover .nav-menu {
   width: var(--nav-menu-width);
-  color: gray;
 }
 
 .nav-wrapper:hover .nav-menu li {
