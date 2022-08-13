@@ -7,7 +7,7 @@
 
   --offset: 6rem;
   --h2-font-size: 2rem;
-  --nav-menu-width: 20rem;
+  --nav-menu-width: 22rem;
 }
 
 * {
@@ -86,32 +86,29 @@ body {
 }
 
 .nav-menu {
-  visibility: hidden;
   width: 0;
   height: 100vh;
   padding: 5rem 3rem;
   background: var(--dark-color);
   position: absolute;
   top: 0px;
-  right: -2rem;
-  transition: width 1s, visibility 0.2s 0.2s;
+  right: -96px;
+  transition: width 1s;
   justify-content: flex-start;
   align-items: flex-start;
 }
 
 .nav-menu li {
-  width: 10rem;
   transition: margin-bottom 0.5s 0.5s, padding-top 0.5s 0.5s, border-top 0.5s 0.8s;
 }
 
 .nav-wrapper:hover .nav-menu {
-  visibility: visible;
   width: var(--nav-menu-width);
   color: gray;
 }
 
 .nav-wrapper:hover .nav-menu li {
-  width: 100%;
+  width: 8rem;
   margin-bottom: 2rem;
 }
 
