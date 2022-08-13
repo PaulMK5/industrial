@@ -325,13 +325,13 @@ body {
   padding: var(--offset) 1rem 2rem 0;
   align-items: flex-start;
   justify-content: center;
+  color: var(--light-color);
 }
 
 .footer-article {
   max-width: 50%;
   text-align: left;
   padding-right: 4rem;
-  color: var(--light-color);
 }
 
 .footer-article h3 {
